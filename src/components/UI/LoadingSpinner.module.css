@@ -1,9 +1,9 @@
 .spinner-container {
     display: flex;
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    height: 20rem;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 

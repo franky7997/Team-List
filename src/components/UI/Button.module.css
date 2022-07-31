@@ -5,10 +5,10 @@
 
 .button-container button {
     font: inherit;
-    border: 1px solid #FFCB00;
-    background: #FFCB00;
+    border: 1px solid #0e6efd;
+    background: #0e6efd;
     border-radius: 6px;
-    color: #292506;
+    color: #ffe8fe;
     padding: 0.25rem 1rem;
     cursor: pointer;
     height: 2rem;
@@ -16,10 +16,12 @@
 
 .button-container button:hover,
 .button-container button:active {
-    background: #a6ff00;
-    border-color: #a6ff00;
+    background: #0a58ca;
+    border-color: #0a58ca;
 }
 
 .button-container button:focus {
     outline: none;
+    background: #0a58ca;
+    border-color: #0a58ca;
 }

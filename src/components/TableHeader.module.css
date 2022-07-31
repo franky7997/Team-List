@@ -1,6 +1,6 @@
 .table-header {
     display: flex;
-    width: 90%;
+    width: 100%;
 }
 
 .table-header > div {
