@@ -1,0 +1,26 @@
+.textfield-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    width: 30%;
+}
+
+.textfield-container label {
+    font-weight: bold;
+    display: block;
+}
+
+.textfield-container input {
+    font: inherit;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+}
+
+.textfield-container input:focus {
+    outline: none;
+}

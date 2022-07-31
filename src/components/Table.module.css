@@ -1,0 +1,14 @@
+.table {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.table-content {
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: overlay;
+}
+

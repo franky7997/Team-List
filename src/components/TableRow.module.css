@@ -1,0 +1,59 @@
+.table-row {
+    display: flex;
+
+}
+
+.table-row > div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0.5rem 2px;
+    color: #272727;
+}
+
+.alternate-row {
+    background: #D3D3D3;
+}
+
+.col-no {
+    width: 5%;
+    justify-content: center;
+}
+
+.col-name {
+    width: 10%;
+}
+
+.col-email {
+    width: 20%;
+    word-break: break-all;
+    text-align: center;
+}
+
+.col-address {
+    width: 15%;
+    flex-flow: column;
+    text-align: center;
+}
+
+.col-phone {
+    width: 15%;
+    word-break: break-all;
+    text-align: center;
+    justify-content: center;
+}
+
+.col-web {
+    width: 15%;
+    justify-content: center;
+}
+
+.col-company {
+    width: 20%;
+    flex-flow: column;
+    text-align: center;
+}
+
+.col-company > div {
+    padding-right: 12px;
+}

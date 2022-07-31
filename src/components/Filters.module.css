@@ -1,0 +1,7 @@
+.filter {
+    box-shadow: 1px #888888;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}

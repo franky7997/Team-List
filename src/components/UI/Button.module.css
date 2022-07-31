@@ -1,0 +1,25 @@
+.button-container {
+    display: flex;
+    align-items: center;
+}
+
+.button-container button {
+    font: inherit;
+    border: 1px solid #FFCB00;
+    background: #FFCB00;
+    border-radius: 6px;
+    color: #292506;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+    height: 2rem;
+}
+
+.button-container button:hover,
+.button-container button:active {
+    background: #a6ff00;
+    border-color: #a6ff00;
+}
+
+.button-container button:focus {
+    outline: none;
+}
